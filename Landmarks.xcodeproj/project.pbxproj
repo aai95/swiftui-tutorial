@@ -12,6 +12,7 @@
 		720B8A452797413000A713D2 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720B8A442797413000A713D2 /* ModelData.swift */; };
 		7235463A279868480061905A /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72354639279868480061905A /* LandmarkRow.swift */; };
 		7235463C2799D3F50061905A /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7235463B2799D3F50061905A /* LandmarkList.swift */; };
+		724238CF27A06D8100989A70 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724238CE27A06D8100989A70 /* FavoriteButton.swift */; };
 		72AAF23D279B2B08009B4A64 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AAF23C279B2B08009B4A64 /* LandmarkDetail.swift */; };
 		72DB1F952791E12B00FD46DD /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB1F942791E12B00FD46DD /* LandmarksApp.swift */; };
 		72DB1F972791E12B00FD46DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DB1F962791E12B00FD46DD /* ContentView.swift */; };
@@ -27,6 +28,7 @@
 		720B8A442797413000A713D2 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		72354639279868480061905A /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		7235463B2799D3F50061905A /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		724238CE27A06D8100989A70 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		72AAF23C279B2B08009B4A64 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		72DB1F912791E12B00FD46DD /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72DB1F942791E12B00FD46DD /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
@@ -52,11 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				72DB1F962791E12B00FD46DD /* ContentView.swift */,
-				72DB1FA22794580800FD46DD /* CircleImage.swift */,
-				72DB1FA427946ECE00FD46DD /* MapView.swift */,
-				72354639279868480061905A /* LandmarkRow.swift */,
-				7235463B2799D3F50061905A /* LandmarkList.swift */,
-				72AAF23C279B2B08009B4A64 /* LandmarkDetail.swift */,
+				724238D227A06EFA00989A70 /* Landmarks */,
+				724238D027A06E6700989A70 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -76,6 +75,26 @@
 				720B8A4227973EA700A713D2 /* Landmark.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		724238D027A06E6700989A70 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				72DB1FA22794580800FD46DD /* CircleImage.swift */,
+				72DB1FA427946ECE00FD46DD /* MapView.swift */,
+				724238CE27A06D8100989A70 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		724238D227A06EFA00989A70 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				7235463B2799D3F50061905A /* LandmarkList.swift */,
+				72354639279868480061905A /* LandmarkRow.swift */,
+				72AAF23C279B2B08009B4A64 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		72DB1F882791E12B00FD46DD = {
@@ -189,6 +208,7 @@
 				72DB1F972791E12B00FD46DD /* ContentView.swift in Sources */,
 				72DB1FA527946ECE00FD46DD /* MapView.swift in Sources */,
 				72DB1F952791E12B00FD46DD /* LandmarksApp.swift in Sources */,
+				724238CF27A06D8100989A70 /* FavoriteButton.swift in Sources */,
 				7235463C2799D3F50061905A /* LandmarkList.swift in Sources */,
 				72AAF23D279B2B08009B4A64 /* LandmarkDetail.swift in Sources */,
 				72DB1FA32794580800FD46DD /* CircleImage.swift in Sources */,
