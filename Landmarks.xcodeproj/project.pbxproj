@@ -134,6 +134,7 @@
 		724238D027A06E6700989A70 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				72F10E2F27B15EFA0036EB34 /* FeatureCard.swift */,
 				72DB1FA22794580800FD46DD /* CircleImage.swift */,
 				72DB1FA427946ECE00FD46DD /* MapView.swift */,
 				724238CE27A06D8100989A70 /* FavoriteButton.swift */,
@@ -235,7 +236,6 @@
 		72F10E2C27B15C1B0036EB34 /* PageView */ = {
 			isa = PBXGroup;
 			children = (
-				72F10E2F27B15EFA0036EB34 /* FeatureCard.swift */,
 				72F10E3227B15FD80036EB34 /* PageView.swift */,
 				72F10E2D27B15C460036EB34 /* PageViewController.swift */,
 				72A96F0327B587B000B7F731 /* PageControl.swift */,
